@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="MITM4_data" version="1.3.0" audacityversion="2.2.2" sel0="624.7382267742" sel1="624.7382267742" vpos="0" h="609.4407624183" zoom="11.2002484659" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="MITM4_data" version="1.3.0" audacityversion="2.2.2" sel0="2398.0003874002" sel1="2399.2635275183" vpos="96" h="0.0000000000" zoom="0.1733092721" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Notif fixed" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -1471,17 +1471,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Notif OG(muted)" channel="2" linked="0" mute="1" solo="0" height="150" minimized="1" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
-		<waveclip offset="624.52476291" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="55735">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000faa.au" len="55735" min="-0.722366" max="0.854175" rms="0.105534"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="Maya" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Maya" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="29977189">
 				<waveblock start="0">
@@ -3045,7 +3035,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Zenia" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Zenia" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="960.35290274" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="4490236">
 				<waveblock start="0">
@@ -4638,20 +4628,10 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="2" height="73" minimized="0" isSelected="0">
-		<label t="127.7335631696" t1="127.7335631696" title="it sounds much clearer now that i can read it dunno why i marked it - vt"/>
-		<label t="127.7335631696" t1="127.7335631696" title="in inverted commas, a normal life. (air quotes)"/>
-	</labeltrack>
-	<labeltrack name="Label Track" numlabels="11" height="113" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="5" height="113" minimized="0" isSelected="1">
 		<label t="0.0000000000" t1="0.0000000000" title="starts here"/>
-		<label t="52.2363058184" t1="53.0695005320" title="maybe treat this for plosive"/>
-		<label t="68.4225968993" t1="69.6554710410" title="plo"/>
-		<label t="127.9355772832" t1="128.4380083555" title="??"/>
-		<label t="416.6675592897" t1="420.6703566051" title="some mic bumps here"/>
 		<label t="624.5247629072" t1="625.6859169290" title="notif sound"/>
-		<label t="731.3210481914" t1="776.7272055848" title="noticed quite a few bumps"/>
 		<label t="2280.3652094348" t1="2280.3652094348" title="mother&apos;s moan starts"/>
-		<label t="2398.0003874002" t1="2399.2635275183" title="plo"/>
 		<label t="2403.4854049143" t1="2403.4854049143" title="start of big ups"/>
 		<label t="2604.5615803133" t1="2630.3997004214" title="outro remarks"/>
 	</labeltrack>
